@@ -5,8 +5,8 @@ import lombok.Data;
 
 @AllArgsConstructor
 @Data
-public class Test {
+public class TestResponse {
   private String id;
-  private String name;
+  private String requester;
   private String status;
 }
